@@ -11,7 +11,8 @@ export default function Userform()
         
     }
     const usercheck=Uservalidation.isValid(formdatas);
-    console.log(usercheck)
+    console.log(usercheck);
+    //formdata;
     }
     return (<div>
         <h1>welcome</h1>
@@ -23,6 +24,7 @@ export default function Userform()
             <label>phoneno:</label>
             <input type="text"></input><br/><br/><br/>
             <input type="submit" value="submit"></input>
+            
         </form>
     </div>)
 }
