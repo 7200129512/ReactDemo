@@ -12,6 +12,7 @@ export default function Userform()
     }
     const usercheck=Uservalidation.isValid(formdatas);
     console.log(usercheck)
+    //formdata
     }
     return (<div>
         <h1>welcome</h1>
